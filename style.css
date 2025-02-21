@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header {
+    background-color: #FFFFFF;
+    height: 100px;
+    padding: 0 100px 0 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dadada;
+}
+.header .icon{
+     height: 28px;
+     width: 28px;
+     object-fit: cover;
+}
+.logo {
+    height: 41px;
+    width: 185px;
+}
+.header-middle{
+    display: flex;
+    gap: 75px;
+}
+.header-right{
+    display: flex;
+    gap: 45px;
+}
+.link {
+    color: #000000;
+    line-height: 24px;
+    font-weight: 500;
+    transition:  all 0.3s linear;
+}
+.link:hover{
+    opacity: 0.5;
+}
+.baner {
+    width: 1440px;
+    height: 761.83px;
+   
+}
+.range {
+}
+.our-product {
+}
+.beatyfull-room {
+}
+.funiro {
+}
+.footer {
+}
