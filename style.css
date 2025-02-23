@@ -1,61 +1,223 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
+body {
+    font-family: "Noto Sans",sans-serif;
 }
-li{
-    list-style: none;
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.container {
+  margin: 24px;
+  height: 100%;
+  background-color: rgba(173, 164, 164, 0.8);
 }
 .header {
-    background-color: #FFFFFF;
-    height: 100px;
-    padding: 0 100px 0 54px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #dadada;
+  background-color: #ffffff;
+  height: 100px;
+  padding: 0 100px 0 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #dadada;
 }
-.header .icon{
-     height: 28px;
-     width: 28px;
-     object-fit: cover;
+.header .icon {
+  height: 28px;
+  width: 28px;
+  object-fit: cover;
 }
 .logo {
-    height: 41px;
-    width: 185px;
+  height: 41px;
+  width: 185px;
 }
-.header-middle{
-    display: flex;
-    gap: 75px;
+.header-middle {
+  display: flex;
+  gap: 75px;
 }
-.header-right{
-    display: flex;
-    gap: 45px;
+.header-right {
+  display: flex;
+  gap: 45px;
 }
 .link {
-    color: #000000;
-    line-height: 24px;
-    font-weight: 500;
-    transition:  all 0.3s linear;
+  font-size: 20px;
+  color: #000000;
+  line-height: 24px;
+  font-weight: 500;
+  transition: all 0.3s linear;
 }
-.link:hover{
-    opacity: 0.5;
+.link:hover {
+  opacity: 0.5;
 }
 .baner {
-    width: 1440px;
-    height: 761.83px;
-   
+  position: relative;
+  width: 1440px;
+  height: 761.83px;
+}
+.image-banner {
+  width: 1440px;
+  height: 1007.93px;
+  padding-top: -75px;
+}
+
+.box-banner {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  flex-direction: column;
+  padding: 82px;
+  width: 643px;
+  height: 443px;
+  top: 253px;
+  left: 739px;
+  border-radius: 10px;
+  background-color: #fff3e3;
+}
+.header-box {
+  display: flex;
+  align-items: center;
+  width: 123px;
+  height: 24px;
+  top: 315px;
+  left: 780px;
+  color: #333333;
+}
+.Conten-banner {
+  width: 559px;
+  height: 127px;
+  top: 343px;
+  left: 780px;
+}
+.text-conten {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 65px;
+  color: #b88e2f;
+}
+.lorem-baner {
+  width: 546;
+  height: 52;
+  top: 487px;
+  left: 780px;
+}
+.text-banner {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #333333;
+}
+.button-baner {
+  width: 222;
+  height: 74;
+  top: 585px;
+  left: 778px;
+  margin-top: 82px;
+  padding-top: 25px;
+  padding-right: 72px;
+  padding-bottom: 25px;
+  padding-left: 72px;
+  gap: 10px;
+  color: #ffffff;
+  background: #b88e2f;
+  border: transparent;
+}
+.buy-now {
+  width: 78;
+  height: 24;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
 }
 .range {
+  background-color: #ffffff;
+  width: 1183;
+  height: 685;
+  left: 131px;
+  transform: translateY(20px);
 }
-.our-product {
+.header-range {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
-.beatyfull-room {
+
+.Browse {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 300px;
+  height: 48px;
+  left: 543px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0px;
 }
-.funiro {
+.lorem-range {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 559px;
+  height: 28px;
+  left: 449px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #666666;
 }
-.footer {
+
+.card-range {
+  display: flex;
+  padding: 40px;
+  justify-content: space-around;
+}
+.dining-room {
+  margin: 30px;
+  width: 381px;
+  height: 480px;
+  left: 532px;
+  padding-right: 10px;
+}
+.living-room {
+  margin: 30px;
+  width: 381px;
+  height: 480px;
+  left: 532px;
+  padding-right: 10px;
+}
+.bebroom {
+  margin: 30px;
+  width: 381px;
+  height: 480px;
+  left: 532px;
+}
+.name-room {
+  width: 71;
+  height: 36;
+  top: 1518px;
+  left: 687px;
+}
+.footer-range {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
 }
