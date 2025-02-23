@@ -157,8 +157,10 @@ section{
 .baner-two{
   margin-top: 90px;
 }
-.baner-three{
-  margin-top: 90px;
+.baner-four{
+  margin-top: 150px;
+  justify-content: space-between;
+  display: flex;
 }
 .image-banner-two{
   transform: translateY(-50px);
@@ -257,9 +259,8 @@ section{
 }
 .body-about-me {
   display: flex;
-  height: 500px;
+  height: 300px;
   padding: 0 30px;
-  justify-content: space-between;
 }
 .body-about-left {
   color: white;
@@ -270,7 +271,7 @@ section{
 .body-about-right{
   color: white;
   width: 704px;
-  transform: translateX(-200px);
+  transform: translateX(100px);
 }
 .text-header-about {
   width: auto;
@@ -287,6 +288,7 @@ section{
 .about-me {
   text-decoration: underline;
   color:#D3E97A ;
+  width: 200px;
   padding:16px 0;
 }
 .text-header-about {
@@ -298,13 +300,62 @@ section{
   width: auto;
   height: auto;
 }
-.about-me {
-  width: 129px;
-  height: 28px;
-  color: #D2E87A;
-}
 .banner-four{
   margin-top: 20px;
+}
+.footer-main {
+  display: flex;
+  width: auto;
+  height: auto;
+  transform: translateY(150px);
+}
+.footer-main{
+  height: 700px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+.text-footer {
+  color: #c7c7c7;
+  padding-bottom: 30px;
+}
+.icon-footer {
+  width: 32px;
+  height: 32px;
+}
+label{
+  color: #c7c7c7;
+}
+.inpotan{
+  color: #c7c7c7;
+  justify-content: flex-end;
+  transform: translateY(350px);
+}
+input{
+  background-color: rgb(207, 195, 195);
+  height: 30px;
+  width: 500px;
+}
+textarea{
+  background-color: rgb(194, 183, 183);
+  height: 30px;
+}
+.form-footer {
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.button-submit {
+  margin-top: 20px;
+  border-radius: 45px;
+  padding: 20px;
+  width: 120px;
+  color: black;
+  background-color: #D3E97A;
 }
 
 
